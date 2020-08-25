@@ -21,18 +21,20 @@ In this workshop we will use IBM Watson Studio to run a notebook. For this you w
 
 - Go to your [IBM Cloud account](http://ibm.biz/explainai_mg) or [sign up](http://ibm.biz/explainai_mg)
 
-- When you are signed up click `Create Resource` at the top of the Resources page. You can find the resources under the hamburger menu at the top left:
+1. When you have used Watson Studio before, you can skip the next few steps. Go straight to the Resources list and click on Watson Studio and then click on `Get Started`. This will open a new Tab with Cloud Pak For Data that includes Watson Studio.
 
-![](https://github.com/IBMDeveloperUK/python-geopandas-workshop/blob/master/images/Create_resource.png)
+2. When you have just created an account, click `Create Resource` at the top of the Resources page. You can find the resources under the hamburger menu at the top left:
 
-- Search for Watson Studio and click on the tile:
+  ![](https://github.com/IBMDeveloperUK/python-geopandas-workshop/blob/master/images/Create_resource.png)
 
-![](https://github.com/IBMDeveloperUK/jupyter-notebooks-101/blob/master/images/studio.png)
+  - Search for Watson Studio and click on the tile:
 
-- Select the Lite plan and click `Create`.
-- Go back to the Resources list and click on your Watson Studio service and then click `Get Started`.
+  ![](https://github.com/IBMDeveloperUK/jupyter-notebooks-101/blob/master/images/studio.png)
 
-![](https://github.com/IBMDeveloperUK/jupyter-notebooks-101/blob/master/images/launch.png)
+  - Select the Lite plan and click `Create`.
+  - Go back to the Resources list and click on your Watson Studio service and then click `Get Started`. This will open a new Tab with Cloud Pak For Data that includes Watson Studio.
+
+  ![](https://github.com/IBMDeveloperUK/jupyter-notebooks-101/blob/master/images/launch.png)
 
 ## IBM Watson Studio
 
@@ -41,8 +43,10 @@ In this workshop we will use IBM Watson Studio to run a notebook. For this you w
 - You should now be in Watson Studio.
 - Create a new project by clicking on `Get Started` and `New Project`, or `Create Project`
 - Give your Project a name.
-- Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. **Do not forget to click refresh when returning to the Project page.**
+- If this your first time using Watson Studio select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. **Do not forget to click refresh when returning to the Project page.**
 - click `Create`.  
+- If you have used Watson Studio before you can skip the above step, as Object Storage is already created
+
 
 ### 2. Load and run a notebook
 
