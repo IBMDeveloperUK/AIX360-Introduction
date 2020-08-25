@@ -5,10 +5,9 @@ In many applications, trust in an AI system will come from its ability to ‘exp
 
 AI Explainability 360 (AIX360) is an open source toolkit that includes algorithms that span the different dimensions of ways of explaining along with proxy explainability metrics.
 
-In this workshop you will explore different kinds of explanations suited to different users in the context of a credit approval process enabled by machine learning. The three types of users that we will look at are a data scientist, who evaluates the machine learning model before deployment, a loan officer, who makes the final decision based on the model's output, and a bank customer, who wants to understand the reasons for their application result.
+In this workshop you will explore different kinds of explanations suited to different users. You will learn:
 
-You will learn:
-- how to build several machine learning models, including a simple neural network
+- how to build several machine learning models
 - how to evaluate these models and their output
 
 ## Getting Started with Jupyter Notebooks
@@ -43,14 +42,14 @@ In this workshop we will use IBM Watson Studio to run a notebook. For this you w
 - You should now be in Watson Studio.
 - Create a new project by clicking on `Get Started` and `New Project`, or `Create Project`
 - Give your Project a name.
-- If this your first time using Watson Studio select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. **Do not forget to click refresh when returning to the Project page.**
+1. If you have used Watson Studio before you can select an Object Storage from the drop-down menu
+2. If this is your first time using Watson Studio you have to create Object Storagefor free that is used to store the notebooks and data. Follow the instructions and **do not forget to click refresh when returning to the Project page.**
 - click `Create`.  
-- If you have used Watson Studio before you can skip the above step, as Object Storage is already created
 
 
 ### 2. Load and run a notebook
 
-- Add a new notebook. Click `Add to project` and choose `Notebook`:
+- Within the new project now add a new notebook. Click `Add to project` and choose `Notebook`:
 
 ![](https://github.com/IBMDeveloperUK/python-geopandas-workshop/blob/master/images/notebook.png)
 
@@ -59,6 +58,10 @@ In this workshop we will use IBM Watson Studio to run a notebook. For this you w
 - The notebook will load.
 
 You are now ready to follow along with the workshop in the notebook!
+
+### 3. Load and run a second notebook
+
+
 
 ## Optional: Anaconda local install
 
