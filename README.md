@@ -59,27 +59,6 @@ In this workshop we will use IBM Watson Studio to run a notebook. For this you w
 
 You are now ready to follow along with the workshop in the notebook!
 
-### 3. Load and run a second notebook
-
-1. Data
-- To run this notebook you will need to download [this data](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2) first
-- Then go to the `Assets` tab of your project
-- Click on `Add to project` at the top of the page and click `Data`
-- On the right of the screen you can now upload the file `heloc_dataset.csv` to your project. If your downloaded file has a different name, first change it to `heloc_dataset.csv`
-2. Access token
-- The second thing that is needed is an `access token` to access the file from a notebook
-- Go to the `Settings` tab from the project page and scroll down to `Access tokens`
-- Click on `New token` and click create. The name is not important
-3. Stop kernel
-- Go to your project page and click on the `Environments` tab at the top
-- Check if there is an active runtime. If there is click on the 3 dots at the right of the name and click 'Stop'
-- Now you can run a different notebook as within a free account you can only run one notebook at a time
-- As above, click `Add to project` and choose `Notebook`
-- Choose new notebook `From URL`. Give your notebook a name and copy the URL `https://github.com/IBMDeveloperUK/AIX360-workshop/blob/master/notebooks/HELOC-watson-studio.ipynb`
-- Select the `Default Python 3.6 XS` enviroment and click `Create Notebook`.
-- The notebook will load and you are now ready to follow along
-
-
 ## Optional: Anaconda local install
 
 Optional local install on Mac:
