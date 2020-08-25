@@ -73,13 +73,9 @@ Open terminal and create a new environment:
 
 Just in case: `> conda env remove --name aix360`
 
-Or use the environment with all packages you need from the yml file (this one includes probably too many, will need to clean it up):
-
-`> conda env create -f environment.yml`
-
 Add kernel to Jupyter notebooks:
 
-`> python -m ipykernel install --user --name aif360 --display-name "Python37 (aif360)"`
+`> python -m ipykernel install --user --name aix360 --display-name "Python37 (aix360)"`
 
 Start notebooks: 
 `> jupyter notebook`
